@@ -1,0 +1,3 @@
+apple.png | Apple - Innovative technologies for everyday life | https://apple.com
+google.png | Google - Organizing the world's information | https://google.com
+microsoft.png | Microsoft - Empowering every person and organization | https://microsoft.com

@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "custom-blocks/hero",
+    "version": "1.0.0",
+    "title": "Hero Section",
+    "category": "widgets",
+    "icon": "cover-image",
+    "description": "Hero section with background image, title, text and action buttons",
+    "supports": {
+        "html": false
+    },
+    "textdomain": "custom-blocks-collection",
+    "editorScript": "file:../../build/blocks/hero/index.js",
+    "editorStyle": "file:../../build/blocks/hero/index.css",
+    "style": "file:../../build/blocks/hero/style-index.css",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": "Specialized, efficient, and thorough cleaning services"
+        },
+        "subtitle": {
+            "type": "string",
+            "default": "Quality cleaning at a fair price."
+        },
+        "text": {
+            "type": "string",
+            "default": "We provide Performing cleaning tasks using the least amount of time, energy, and money."
+        },
+        "backgroundImage": {
+            "type": "object",
+            "default": {
+                "id": null,
+                "url": "",
+                "alt": ""
+            }
+        },
+        "primaryButtonText": {
+            "type": "string",
+            "default": "Get Start Now"
+        },
+        "primaryButtonTarget": {
+            "type": "string",
+            "default": "#contact"
+        },
+        "secondaryButtonText": {
+            "type": "string",
+            "default": "View all Services"
+        },
+        "secondaryButtonTarget": {
+            "type": "string",
+            "default": "#services"
+        },
+        "titleColor": {
+            "type": "string",
+            "default": "#333333"
+        },
+        "textColor": {
+            "type": "string",
+            "default": "#666666"
+        }
+    }
+}

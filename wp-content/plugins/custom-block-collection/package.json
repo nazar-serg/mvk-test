@@ -1,0 +1,22 @@
+{
+    "name": "custom-blocks-collection",
+    "version": "1.0.0",
+    "description": "Collection of custom Gutenberg blocks",
+    "main": "index.js",
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start"
+    },
+    "devDependencies": {
+        "@wordpress/scripts": "^26.0.0"
+    },
+    "dependencies": {
+        "@wordpress/block-editor": "^12.0.0",
+        "@wordpress/blocks": "^12.0.0",
+        "@wordpress/components": "^25.0.0",
+        "@wordpress/element": "^5.0.0",
+        "@wordpress/i18n": "^4.0.0",
+        "jquery": "^3.7.1",
+        "owl.carousel": "^2.3.4"
+    }
+}

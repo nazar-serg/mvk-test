@@ -1,0 +1,42 @@
+{
+    "apiVersion": "2",
+    "name": "custom-blocks/testimonial",
+    "title": "Testimonial Block",
+    "category": "widgets",
+    "icon": "format-chat",
+    "description": "A custom block for testimonials with carousel functionality",
+    "textdomain": "custom-blocks-collection",
+    "editorScript": "file:../../build/blocks/testimonial/index.js",
+    "editorStyle": "file:../../build/blocks/testimonial/index.css",
+    "style": "file:../../build/blocks/testimonial/style-index.css",
+    "attributes": {
+        "testimonialItems": {
+            "type": "array",
+            "default": []
+        },
+        "title": {
+            "type": "string",
+            "default": "Testimonials",
+            "source": "html",
+            "selector": ".testimonial-custom-block__title"
+        },
+        "text": {
+            "type": "string",
+            "default": "Testimonials",
+            "source": "html",
+            "selector": ".testimonial-custom-block__text"
+        },
+        "starCount": {
+            "type": "number",
+            "default": 5
+        },
+        "titleColor": {
+            "type": "string",
+            "default": "#333333"
+        },
+        "textColor": {
+            "type": "string",
+            "default": "#333333"
+        }
+    }
+}

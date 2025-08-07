@@ -1,0 +1,51 @@
+.hero-item-edit {
+    border: 2px dotted #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    min-height: 400px;
+}
+
+.hero-content {
+    .hero-subtitle {
+        margin: 0;
+        margin-bottom: 10px;
+        font-style: italic;
+    }
+    
+    .hero-title {
+        margin: 0;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    
+    .hero-text {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    
+    .hero-buttons {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        
+        .hero-button {
+            padding: 10px 20px;
+            border: 1px solid #ddd;
+            background: #f9f9f9;
+            border-radius: 4px;
+            
+            &.primary {
+                background: #36B864;
+                color: white;
+                border-color: #36B864;
+            }
+            
+            &.secondary {
+                background: transparent;
+                border-color: #36B864;
+                color: #36B864;
+            }
+        }
+    }
+}
