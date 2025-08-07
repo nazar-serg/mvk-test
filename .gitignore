@@ -1,0 +1,51 @@
+# WordPress Core Files
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# WordPress Configuration
+wp-config.php
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Build files
+/build/
+/dist/
+*.map
+
+# WordPress uploads and cache
+wp-content/uploads/
+wp-content/cache/
+
+# Plugin storage (All-in-One WP Migration)
+wp-content/plugins/all-in-one-wp-migration/storage/
+*.wpress
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+error.log
+debug.log
+
+# WordPress debug
+wp-content/debug.log
